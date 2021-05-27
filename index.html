@@ -65,16 +65,7 @@
             для вашего бизнеса
           </h1>
           <button type="button" class="oder-button" data-modal-open>Заказать услугу</button>
-        </div>
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button type="button" class="close-modal" data-modal-close>
-              <svg width="11" height="11">
-                <use href="./images/icon.svg#close-modal"></use>
-              </svg>
-            </button>
-          </div>
-        </div>        
+        </div>             
       </section>
       <!--Особенности оказания услуг-->
       <section class="section features-padding">
@@ -416,7 +407,16 @@
         </div>
       </div>
     </footer>
-
+    <!-- Модальное окно -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-modal" data-modal-close>
+          <svg width="11" height="11">
+            <use href="./images/icons.svg#close-modal"></use>
+          </svg>
+        </button>
+      </div>
+    </div>   
     <script src="./js/modal.js"></script>
   </body>
 </html>
